@@ -2,4 +2,6 @@
 echo "hello Word!";
 echo "<br/>";
 echo phpinfo();
+
+// test
 ?>
