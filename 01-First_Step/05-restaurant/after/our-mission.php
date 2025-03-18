@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/simple.css" />
-    <link rel="stylesheet" href="./styles/custom.css" />
-    <title>Culinary Cove &bull; Our mission</title>
-</head>
-<body>
-  <header class="header-with-background" style="background-image: url('images/pexels-julia-volk-5273044.jpg'); ">
-    <h1>Culinary Cove</h1>
-    <p>Your sanctuary for exceptional flavors</p>
-    <nav>
-      <a href="our-mission.html">Our mission</a>
-      <a href="ingredients.html">Ingredients</a>
-    </nav>
-  </header>
+<?php include 'inc/header.inc.php'; ?>
 
-  <main>
     <h1>Our mission</h1>
     <p>
       At Culinary Cove, our core mission is to offer a sanctuary for 
@@ -47,8 +29,4 @@
     </p>
   </main>
 
-  <footer>
-    <p>Culinary Cove's website.</p>
-  </footer>
-</body>
-</html>
+<?php include 'inc/footer.inc.php'; ?>
